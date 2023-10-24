@@ -31,6 +31,6 @@ io.on("connection", (socket) => {
 
 
 
-httpServer.listen(port+1,()=>{
-    console.log("Socket is listening on port",port+1);
+httpServer.listen(port,()=>{
+    console.log("Socket is listening on port",port);
 });
